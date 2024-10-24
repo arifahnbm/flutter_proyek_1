@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           'Home',
           style: TextStyle(color: Colors.black),
         ),
-        backgroundColor: const Color.fromARGB(255, 148, 203, 245),
+        backgroundColor: const Color.fromARGB(255, 152, 187, 244),
       ),
       body: Center(
         child: Column(
