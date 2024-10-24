@@ -16,8 +16,8 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Login'),
-          backgroundColor: Colors.blueAccent,
+          title: Text('Login', style: TextStyle(color: Colors.black)),
+          backgroundColor: Color.fromARGB(255, 152, 187, 244),
         ),
 
         //body
@@ -28,7 +28,7 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.person, size: 100, color: Colors.blueAccent),
+                Icon(Icons.person, size: 100, color: Color.fromARGB(255, 152, 187, 244)),
                 SizedBox(height: 20),
                 //kolom email
                 TextFormField(
