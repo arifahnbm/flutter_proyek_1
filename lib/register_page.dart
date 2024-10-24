@@ -21,6 +21,8 @@ class RegisterPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Icon(Icons.person,
+                  size: 100, color: Color.fromARGB(255, 152, 187, 244)),
               TextFormField(
                 decoration: InputDecoration(
                   labelText: 'Nama Lengkap',
